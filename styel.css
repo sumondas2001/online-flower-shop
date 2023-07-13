@@ -145,11 +145,12 @@ body {
 
 }
 .hot-deal{
-    background-color: #f0d9de;
-
+    background-color: hsl(353, 10%, 83%);
     display: flex;
     align-items: center;
-    padding: 230px 0px 162px 423px;
+    padding: 200px 429px 80px 392px;
+    justify-content: space-between;
+    max-height: 600px;
 
 }
 .hot-deal-title{
@@ -170,12 +171,82 @@ body {
 .hot-deal-ing{
     width: 318px;
     height: 420px;
-    padding: 100px 429px 100px 186px;
+    padding: 100px 0px 80px 185px;
 
 
 }
    
   
+.instagram{
+    text-align: center;
+}
+.instagram-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+.instagram-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-bottom: 48px;
+}
+.instagram-img{
+    width: 342px;
+    height: 396px;
+    display: flex;
+    padding: 48px 240px 128px 240px;
+    gap: 24px;
+
+
+}
+/* this is a footer */
+.Deals{
+    text-align: center;
+    background-image: url('./Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    margin: 128px 240px 128px 240px;
+    padding: 122px 500px 121px 500px;
+  
+}
+.Deals-title{
+   
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+   padding: ;
+}
+.Deals-para{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 45px;
+}
+.Deals-tex{
+    width: 700px;
+    height: 64px;
+    margin-bottom: 30px;
+    
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 10px solid #FFF;
+  
+    
+    
+}
+.from{
+    
+    
+   
+
+}
+
+
+
     
 
 
