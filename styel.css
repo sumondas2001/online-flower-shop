@@ -1,3 +1,7 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /* common shared styles*/
 body {
     font-family: 'Lato', sans-serif;
@@ -57,4 +61,75 @@ body {
 
 .main-Featured{
     text-align: center;
+   
+    
+}
+.Featured-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+
+}
+.Featured-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+
+}
+
+ 
+
+
+.img-description{
+    display: flex;
+    list-style:none ;
+    color: #272727;
+    font-size: 24px;
+    font-weight: 700;
+    height: 35px;
+    text-align: center; 
+
+    
+
+   
+}
+
+.Featured-flower-section{
+    display: flex;
+    padding: 48px 240px 195px 240px;
+    justify-content: center;
+    gap: 24px;
+    
+ 
+  
+
+}
+.flower-img{
+    background: #f1eaed;
+    
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+    row-gap: 24px;
+  
+ }
+.flower-img-1{
+    background:#caedf0;
+    
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+   
+
+}
+.flower-img-2{
+    background:#c9e7ab;
+    
+    border-radius: 300px 300px 0px 0px;
+    width: 464px;
+    height: 538px;
+   
+
 }
