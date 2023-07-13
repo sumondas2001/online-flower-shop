@@ -17,6 +17,7 @@ body {
     color: #FFF;
     font-size: 20px;
     border: 0px;
+    
    
 }
 .landing-page{
@@ -138,20 +139,45 @@ body {
     display: flex;
     background-color: #dfdbdb;
     justify-content: space-between;
-   
     padding: 86px 317px 87px;
     margin: 0px 240px 128px 240px ;
   
 
 }
-.Delivery{
+.hot-deal{
+    background-color: #f0d9de;
+
+    display: flex;
+    align-items: center;
+    padding: 230px 0px 162px 423px;
+
+}
+.hot-deal-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
    
-    /* display: flex; */
-    
+
+}
+.hot-deal-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+    margin-bottom: 52px;
+}
+.hot-deal-ing{
+    width: 318px;
+    height: 420px;
+    padding: 100px 429px 100px 186px;
+
+
+}
    
   
     
 
-}
+
     
 
